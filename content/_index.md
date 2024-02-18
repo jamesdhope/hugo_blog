@@ -65,7 +65,7 @@ sections:
         - title: Senior Solutions Architect
           company: IBM
           company_url: ''
-          company_logo: ibm
+          company_logo: 
           location: California
           date_start: '2021-01-01'
           date_end: ''
