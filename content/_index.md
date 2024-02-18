@@ -52,7 +52,7 @@ sections:
   #    columns: '1'
   - block: experience
     content:
-      title: Experience
+      title: Recent Experience
       # Date format for experience
       #   Refer to https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -103,33 +103,35 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
+        - certificate_url: https://google.accredible.com/1955e0c9-5991-4308-b915-42274832908a
+          date_end: ''
+          date_start: '2023-07-29'
+          description: ''
+          icon: gcp
+          organization: Google Cloud
+          organization_url: https://cloud.google.com/
+          title: Professional Machine Learning Engineer
+          url: ''
+        - certificate_url: https://google.accredible.com/4804f5ce-eb49-4898-acb3-530c732c7955
+          date_end: ''
+          date_start: '2023-07-29'
+          description: ''
+          icon: gcp
+          organization: Google Cloud
+          organization_url: https://cloud.google.com/
+          title: Professional Cloud Architect
+          url: ''
+        
+        - certificate_url: https://www.credly.com/badges/6aecdeae-820a-446e-9f90-8c2422e0defb/public_url
           date_end: ''
           date_start: '2021-01-25'
           description: ''
-          icon: coursera
-          organization: Coursera
+          icon: ibm
+          organization: IBM
           organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          title: IBM Certified Architect
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        
     design:
       columns: '2'
   - block: collection
