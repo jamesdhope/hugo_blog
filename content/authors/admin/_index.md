@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Senior Solutions Architect | AI Engineer | GCP Professional Machine Learning Engineer
+role: Senior Solutions Architect @ IBM Client Engineering | AI Engineer | GCP Professional Machine Learning Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: IBM Client Engineering
+    url: https://www.ibm.com/client-engineering
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
