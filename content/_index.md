@@ -93,7 +93,7 @@ sections:
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      title: 'Certifications'
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -121,16 +121,43 @@ sections:
           organization_url: https://cloud.google.com/
           title: Professional Cloud Architect
           url: ''
-        
         - certificate_url: https://www.credly.com/badges/6aecdeae-820a-446e-9f90-8c2422e0defb/public_url
           date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-05-01'
           description: ''
           icon: ibm
           organization: IBM
           organization_url: https://www.coursera.org
           title: IBM Certified Architect
           url: ''
+        - certificate_url: https://www.credly.com/badges/5a507977-8bf7-4ada-89f7-fa8b4bf47c06?source=linked_in_profile
+          date_end: ''
+          date_start: '2021-01-25'
+          description: ''
+          icon: cissp
+          organization: IBM
+          organization_url: https://www.isc2.org/
+          title: Certified Information Systems Security Professional (CISSP)
+          url: ''
+        - certificate_url: https://www.credly.com/badges/68e8a8fe-74e8-4925-89be-5c2ddbad65f0/public_url
+          date_end: ''
+          date_start: '2022-04-01'
+          description: ''
+          icon: rh
+          organization: Red Hat
+          organization_url: https://www.redhat.com/en
+          title: 
+          url: ''
+        - certificate_url: https://www.credly.com/badges/68e8a8fe-74e8-4925-89be-5c2ddbad65f0/public_url
+          date_end: ''
+          date_start: '2022-04-01'
+          description: ''
+          icon: rh
+          organization: Red Hat
+          organization_url: https://www.redhat.com/en
+          title: Red Hat Certified OpenShift Administrator
+          url: ''
+        
         
     design:
       columns: '2'
