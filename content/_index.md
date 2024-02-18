@@ -146,15 +146,6 @@ sections:
           icon: rh
           organization: Red Hat
           organization_url: https://www.redhat.com/en
-          title: 
-          url: ''
-        - certificate_url: https://www.credly.com/badges/68e8a8fe-74e8-4925-89be-5c2ddbad65f0/public_url
-          date_end: ''
-          date_start: '2022-04-01'
-          description: ''
-          icon: rh
-          organization: Red Hat
-          organization_url: https://www.redhat.com/en
           title: Red Hat Certified OpenShift Administrator
           url: ''
         
