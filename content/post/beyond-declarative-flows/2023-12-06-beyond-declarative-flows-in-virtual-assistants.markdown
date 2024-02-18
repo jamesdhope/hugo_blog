@@ -14,6 +14,6 @@ Building user journeys as declarative trees within a virtual assistant requires 
 
 The following diagram shows this interaction with IBM Watson Assistant which is used to orchestrate the call to the language model for reasoning, the tools (a statistical propensity model, a vectorstore and a prestoDB engine), and the language model to generate a final response.
 
-![Interaction Diagram](/assets/images/single-turn-reasoning.png)
+![Interaction Diagram](single-turn-reasoning.png)
 
 In this example, the language model is used for single turn reasoning. With next generation language models, multi-turn reasoning may be more effective at guiding the user to a goal. Declarative flows are used to build application logic, guardrail LLM driven actions and impose structure around interactions that must be explicitly defined.
