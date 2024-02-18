@@ -3,11 +3,11 @@
 title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: James Hope
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: James
+last_name: Hope
 
 # Status emoji
 status:
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Senior Solutions Architect | AI Engineer | GCP Professional Machine Learning Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
