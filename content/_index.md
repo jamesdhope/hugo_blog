@@ -66,23 +66,28 @@ sections:
           company: IBM
           company_url: ''
           company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+          location: United Kingdom
+          date_start: '2023-04-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+              Building more next generation AI.
+        - title: Solutions Architect
+          company: IBM
+          company_url: ''
+          company_logo: org-gc
+          location: United Kingdom
+          date_start: '2022-01-01'
+          date_end: '2023-04-01'
+          description: |2-
+              Building next generation AI, digital twins, event driven integrations, automations and hybrid cloud infrastructure.
+        - title: Technology Engineer
+          company: Various
           company_url: ''
           company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          location: United Kingdom
+          date_start: '2011-01-01'
+          date_end: '2021-12-01'
+          description: 
     design:
       columns: '2'
   - block: accomplishments
