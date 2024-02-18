@@ -70,24 +70,24 @@ sections:
           date_start: '2023-04-01'
           date_end: ''
           description: |2-
-              Building more next generation AI.
+              Building a lot more next generation AI.
         - title: Solutions Architect
           company: IBM
           company_url: ''
-          company_logo: org-gc
+          company_logo: ibm
           location: United Kingdom
           date_start: '2022-01-01'
           date_end: '2023-04-01'
           description: |2-
               Building next generation AI, digital twins, event driven integrations, automations and hybrid cloud infrastructure.
-        - title: Technology Engineer
+        - title: Software Engineer
           company: Various
           company_url: ''
-          company_logo: org-x
+          company_logo: 
           location: United Kingdom
           date_start: '2011-01-01'
           date_end: '2021-12-01'
-          description: 
+          description: Building and engineering products for a startups and scale-ups including Wikipedia; building ML models for predictive analytics; developing architectures for cloud native apps; IaC for deploying into cloud and Kubernetes; configuring service meshes; deploying observability stacks, DevSecOps toolchains, amongst other things.
     design:
       columns: '2'
   - block: accomplishments
