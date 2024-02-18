@@ -17,4 +17,4 @@ To reduce this risk, one approach is to extract known entities from natural lang
 
 The sequence diagram illustrates this approach with watsonx Assistant with these mechanisms for capturing and reconstructing user context labelled A and B:
 
-![Sequence Diagram](assistant-user-context.png)
+![Sequence Diagram](/assets/media/images/assistant-user-context.png)
