@@ -93,8 +93,8 @@ sections:
           company_url: ''
           company_logo: 
           location: United Kingdom
-          date_start: '2011-01-01'
-          date_end: Ages Ago
+          date_start: '2010-12-01'
+          date_end: '2005-10-01'
           description: Building technology for predictive maintenance; building and deploying cloud native apps; a lot of kubernetes and configuration of service meshes; deploying observability stacks, DevSecOps toolchains, amongst other things.
     design:
       columns: '2'
