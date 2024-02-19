@@ -163,7 +163,7 @@ sections:
           icon: harvardx
           organization: HarvardX
           organization_url: https://www.edx.org/certificates/professional-certificate/harvardx-data-science
-          title: Certified Data Science 
+          title: Certified Data Scientist
           url: ''
         
         
