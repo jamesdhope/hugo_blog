@@ -42,39 +42,6 @@ sections:
       title: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-   - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Education'
-      subtitle:
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://google.accredible.com/1955e0c9-5991-4308-b915-42274832908a
-          date_end: ''
-          date_start: '2023-07-29'
-          description: 'First Class with Honours'
-          icon: gcp
-          organization: Swansea University
-          organization_url: https://cloud.google.com/
-          title: Computer Science BSc
-          url: ''
-        - certificate_url: https://google.accredible.com/4804f5ce-eb49-4898-acb3-530c732c7955
-          date_end: ''
-          date_start: '2023-07-29'
-          description: 'Applications of Cryptography'
-          icon: gcp
-          organization: Cambridge University
-          organization_url: https://cloud.google.com/
-          title: International Relations MPhil
-          url: ''
-    design:
-      columns: '2'
   - block: experience
     content:
       title: Recent Experience
@@ -121,6 +88,39 @@ sections:
           date_start: '2010-12-01'
           date_end: '2005-10-01'
           description: Building technology for predictive maintenance; building and deploying cloud native apps; a lot of kubernetes and configuration of service meshes; deploying observability stacks, DevSecOps toolchains, amongst other things.
+    design:
+      columns: '2'
+  - block: accomplishments
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Education'
+      subtitle:
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - certificate_url: https://google.accredible.com/1955e0c9-5991-4308-b915-42274832908a
+          date_end: ''
+          date_start: '2023-07-29'
+          description: 'First Class with Honours'
+          icon: gcp
+          organization: Swansea University
+          organization_url: https://cloud.google.com/
+          title: Computer Science BSc
+          url: ''
+        - certificate_url: https://google.accredible.com/4804f5ce-eb49-4898-acb3-530c732c7955
+          date_end: ''
+          date_start: '2023-07-29'
+          description: 'Applications of Cryptography'
+          icon: gcp
+          organization: Cambridge University
+          organization_url: https://cloud.google.com/
+          title: International Relations MPhil
+          url: ''
     design:
       columns: '2'
   - block: accomplishments
