@@ -107,7 +107,7 @@ sections:
           date_end: ''
           date_start: '2023-07-29'
           description: 'First Class with Honours'
-          icon: gcp
+          icon: swansea
           organization: Swansea University
           organization_url: https://cloud.google.com/
           title: Computer Science BSc
@@ -116,7 +116,7 @@ sections:
           date_end: ''
           date_start: '2023-07-29'
           description: 'Applications of Cryptography'
-          icon: gcp
+          icon: cambridge
           organization: Cambridge University
           organization_url: https://cloud.google.com/
           title: International Relations MPhil
