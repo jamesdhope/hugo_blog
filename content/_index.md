@@ -94,7 +94,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Education'
-      subtitle:
+      subtitle: 
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Accomplishments.
@@ -127,7 +127,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Certifications'
-      subtitle: 'Find a more complete list here: https://www.linkedin.com/in/jamesdometthope/details/certifications/'
+      subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Accomplishments.
