@@ -80,6 +80,14 @@ sections:
           date_end: '2023-04-01'
           description: |2-
               Building next generation AI, digital twins, event driven integrations, automations and hybrid cloud infrastructure.
+        - title: Academic Tutor
+          company: University of London
+          company_url: ''
+          company_logo: uol
+          location: United Kingdom
+          date_start: '2011-01-01'
+          date_end: '2021-12-01'
+          description: Teaching Machine Learning
         - title: Software Engineer
           company: Various
           company_url: ''
