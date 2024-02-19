@@ -115,7 +115,7 @@ sections:
         - certificate_url: https://google.accredible.com/4804f5ce-eb49-4898-acb3-530c732c7955
           date_end: '2005-08-01'
           date_start: '2004-09-01'
-          description: 'Applications of Cryptography'
+          description: 'Applications of cryptography in association with Cambridge Department of Computer Science and Bletchley Park'
           icon: cambridge
           organization: Cambridge University
           organization_url: https://cloud.google.com/
