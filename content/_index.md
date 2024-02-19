@@ -104,8 +104,8 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: https://google.accredible.com/1955e0c9-5991-4308-b915-42274832908a
-          date_end: ''
-          date_start: '2023-07-29'
+          date_end: '2004-08-01'
+          date_start: '2001-09-01'
           description: 'First Class with Honours'
           icon: swansea
           organization: Swansea University
@@ -113,8 +113,8 @@ sections:
           title: Computer Science BSc
           url: ''
         - certificate_url: https://google.accredible.com/4804f5ce-eb49-4898-acb3-530c732c7955
-          date_end: ''
-          date_start: '2023-07-29'
+          date_end: '2005-08-01'
+          date_start: '2004-09-01'
           description: 'Applications of Cryptography'
           icon: cambridge
           organization: Cambridge University
