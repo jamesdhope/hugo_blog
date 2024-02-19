@@ -42,37 +42,37 @@ sections:
       title: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  
-  - block: experience
+   - block: accomplishments
     content:
-      title: Education
-      # Date format for experience
-      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'Education'
+      subtitle:
+      # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Computer Science
-          company: 
-          company_url: ''
-          company_logo: ibm
-          location: United Kingdom
-          date_start: '2023-04-01'
+        - certificate_url: https://google.accredible.com/1955e0c9-5991-4308-b915-42274832908a
           date_end: ''
-          description: |2-
-              Computer Science BSc (1st Class)
-        - title: Solutions Architect
-          company: IBM
-          company_url: ''
-          company_logo: ibm
-          location: United Kingdom
-          date_start: '2022-01-01'
-          date_end: '2023-04-01'
-          description: |2-
-              Building next generation AI, digital twins, event driven integrations, automations and hybrid cloud infrastructure.
+          date_start: '2023-07-29'
+          description: 'First Class with Honours'
+          icon: gcp
+          organization: Swansea University
+          organization_url: https://cloud.google.com/
+          title: Computer Science BSc
+          url: ''
+        - certificate_url: https://google.accredible.com/4804f5ce-eb49-4898-acb3-530c732c7955
+          date_end: ''
+          date_start: '2023-07-29'
+          description: 'Applications of Cryptography'
+          icon: gcp
+          organization: Cambridge University
+          organization_url: https://cloud.google.com/
+          title: International Relations MPhil
+          url: ''
     design:
       columns: '2'
   - block: experience
