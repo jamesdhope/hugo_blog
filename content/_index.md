@@ -89,7 +89,7 @@ sections:
           date_end: '2021-12-01'
           description: Teaching Machine Learning
         - title: Software Engineer
-          company: Various inc. Barclays, HSBC, BP, Cancer Research, Welcome Trust
+          company: Various inc. Barclays, HSBC, BP, Cancer Research, Wellcome Trust
           company_url: ''
           company_logo: 
           location: United Kingdom
