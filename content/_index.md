@@ -156,6 +156,15 @@ sections:
           organization_url: https://www.redhat.com/en
           title: Red Hat Certified OpenShift Administrator
           url: ''
+        - certificate_url: https://credentials.edx.org/credentials/a6dc1b11b357459f82c37c3f7ab7c32b/
+          date_end: ''
+          date_start: '2019-02-01'
+          description: ''
+          icon: harvardx
+          organization: HarvardX
+          organization_url: https://www.edx.org/certificates/professional-certificate/harvardx-data-science
+          title: Certified Data Science 
+          url: ''
         
         
     design:
