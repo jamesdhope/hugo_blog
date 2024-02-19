@@ -7,6 +7,7 @@ tags:
     - architecture
     - kubernetes
     - open source
+date: 2021-10-27
 ---
 
 Recently I've been developing a solution architecture for a boostrapped startup in Digital Ocean's Kubernetes. Developing an understanding of the context, discovering the domain and taking initial ideas through critical design thinking has been key to a foundational architecture that should serve this product well throughout its lifecycle. As envisioning has happened, the solution and its architecture has evolved to enable numerous product iterations, building out only what has been necessary at each stage. The domain driven approach to development led to a server based query gateway and so what unfolded was containerised microservcies architecture orchestrated by Kubernetes. Here are my top 10 highlights from building in Digital Ocean Kubernetes:

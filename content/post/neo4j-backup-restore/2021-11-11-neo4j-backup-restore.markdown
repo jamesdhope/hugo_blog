@@ -9,6 +9,7 @@ tags:
     - backup & restore
     - kubernetes
     - architecture
+date: 2021-11-11
 ---
 
 If you're managing a data engine inside a kubernetes cluster then implementing a backup and restore process can be challenging. A few months ago I developed a solution architecture deploying Neo4j into Kubernetes as a casual cluster. There's a Medium post by Neo4j's David Allen to explain what that configuration looks like <a target="_new" href="https://medium.com/neo4j/querying-neo4j-clusters-7d6fde75b5b4">here</a>. Unfortunately Neo4j doesn't officially support a casual cluster deployment, but there are community maintained helm charts endorsed by Neo4j that make this achieveable. For this solution I needed a simple backup and restore (nothing more) which is what I wanted to focus on here.

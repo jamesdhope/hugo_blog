@@ -7,6 +7,7 @@ tags:
   - stable marriage
   - algorithmic programming
   - python
+date: 2018-05-18
 ---
 
 In my previous post, I explained my implementation of the Stable Marriage Algorithm to find stable pairs. Taking this implementation one step further, I wanted to use the Stable Marriage Algorithm iteratively, to join stable pairs to other stable pairs to forms groups (or sets). This post explains my implementation of how I have used the Stable Marriage Algorithm to form groups of stable pairs.

@@ -9,6 +9,7 @@ tags:
     - generativeAI
     - architecture
     - watsonx assistant
+date: 2024-02-17
 ---
 
 For conversatonal assistants, language models offer the potential benefit of being able to generate responses to the widest posisble range of queries that adhere to a policy, without the need for a premediated conversational design, which is inherently hard to design optimally for all queries. However, prompt engineering alone may not reduce the risk of the language model deviating from a policy to an acceptable level, particularly in the absence of comphrensive testing frameworks.

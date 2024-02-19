@@ -9,6 +9,7 @@ tags:
     - architecture
     - fine tuning
     - watsonx
+date: 2023-12-01
 ---
 
 Fine-tuning of a large language model (LLM) can be peformed using QLoRA (Quantized Low Rank Adapters) and PEFT (Parameter-Efficient Fine-Tuning) techniques.

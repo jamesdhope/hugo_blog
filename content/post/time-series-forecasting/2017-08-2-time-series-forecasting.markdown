@@ -9,6 +9,7 @@ tags:
     - time series prediction
     - tensorflow
     - predictive modelling
+date: 2027-08-02
 ---
 
 The Notebook described here supersedes my basic Recurrent Neural Net (RNN) for predicting multiple time series for the Wikipedia page forecasting competition. Instead, this RNN is constructed using the GRUCell rather than the BasicRNNCell which provides the model with persistence in the patterns observed over the series. 

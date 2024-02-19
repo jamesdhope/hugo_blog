@@ -8,6 +8,7 @@ tags:
     - generativeAI
     - architecture
     - watsonx
+date: 2023-12-06
 ---
 
 Building user journeys as declarative trees within a virtual assistant requires assumptions to be made about the user query and the optimal path. If there are many decision points and the tree consists of many forks the number of assumptions increases exponentially down the tree leading to inefficiencies and a suboptimal design. To address this inefficiency, one approach is to use a language model to reason over available tools (or APIs) that can be called to augment the response to the query. This collapses the tree and replaces it with a language model that can be guided through a policy or rules expressed in natural language and supplied to the model in a prompt.

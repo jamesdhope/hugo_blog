@@ -10,6 +10,7 @@ tags:
     - architecture
     - multi-modal applications
     - watsonx
+date: 2024-02-10
 ---
 
 Effective governance of enterprise services and applications that utilise generative models requires a multi-layered approach of different classifiers that guardrail the inputs to and outputs from generative models. These models, which are called synchronously by the application and drive application logic and consumed via an API, abstracted away through an SDK or inferenced directly, must themselves be governed. These models too, must be explainable, monitored for drift (if neural) and for fairness.

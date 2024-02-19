@@ -7,6 +7,7 @@ tags:
   - stable marriage
   - algorithmic programming
   - python
+date: 2018-04-12
 ---
 
 Ever been faced with the challenge of pairing people based on their individual preferences? I can think of numerous situations in which such a task might arise, for example, in pairing up co-workers for a task or pairing up students for an activity.

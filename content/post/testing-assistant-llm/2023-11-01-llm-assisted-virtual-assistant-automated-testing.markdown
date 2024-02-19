@@ -7,6 +7,7 @@ tags:
     - llms
     - generativeAI
     - architecture
+date: 2023-11-01
 ---
 
 Large Language Models (LLMs) can be used to automate testing of virtual assistants. One approach is to use the LLM to generate the queries and responses of the human user to automate the test of a journey, end to end. Here I share a conceptual data pipeline view of such a system. The key ideas are:
