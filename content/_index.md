@@ -42,15 +42,12 @@ sections:
       title: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: education
-    #content:
-    #  title: Education
-    #  text: 'education in here'
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-    #  username: admin
-    design:
-      columns: '2'
-  
+  - block: markdown
+    id: section-1
+    content:
+      title: Section 1
+      subtitle: A subtitle
+      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
 
   - block: experience
     content:
