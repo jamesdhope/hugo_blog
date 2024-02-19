@@ -42,12 +42,37 @@ sections:
       title: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: markdown
-    id: section-1
+  
+  - block: experience
     content:
-      title: Section 1
-      subtitle: A subtitle
-      text: Add any **markdown** formatted content here - text, images, videos, galleries - and even HTML code!
+      title: Education
+      # Date format for experience
+      #   Refer to https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Senior Solutions Architect
+          company: IBM
+          company_url: ''
+          company_logo: ibm
+          location: United Kingdom
+          date_start: '2023-04-01'
+          date_end: ''
+          description: |2-
+              Building a lot more next generation AI.
+        - title: Solutions Architect
+          company: IBM
+          company_url: ''
+          company_logo: ibm
+          location: United Kingdom
+          date_start: '2022-01-01'
+          date_end: '2023-04-01'
+          description: |2-
+              Building next generation AI, digital twins, event driven integrations, automations and hybrid cloud infrastructure.
 
   - block: experience
     content:
