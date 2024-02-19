@@ -89,13 +89,13 @@ sections:
           date_end: '2021-12-01'
           description: Teaching Machine Learning
         - title: Software Engineer
-          company: Various
+          company: Various inc. Barclays, HSBC, BP, Cancer Research, Welcome Trust
           company_url: ''
           company_logo: 
           location: United Kingdom
           date_start: '2011-01-01'
-          date_end: '2021-12-01'
-          description: Building and engineering products for a startups and scale-ups including Wikipedia; building ML models for predictive analytics; developing architectures for cloud native apps; IaC for deploying into cloud and Kubernetes; configuring service meshes; deploying observability stacks, DevSecOps toolchains, amongst other things.
+          date_end: 'Ages Ago'
+          description: Building technology for predictive maintenance; building and deploying cloud native apps; a lot of kubernetes and configuration of service meshes; deploying observability stacks, DevSecOps toolchains, amongst other things.
     design:
       columns: '2'
   - block: accomplishments

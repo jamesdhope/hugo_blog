@@ -25,7 +25,7 @@ organizations:
     url: https://www.ibm.com/client-engineering
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include Agentic AI systems, Stateful Language Models and Ecosystems Architectures.
 
 # Interests to show in About widget
 #interests:
