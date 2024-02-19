@@ -55,15 +55,15 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Senior Solutions Architect
-          company: IBM
+        - title: Computer Science
+          company: 
           company_url: ''
           company_logo: ibm
           location: United Kingdom
           date_start: '2023-04-01'
           date_end: ''
           description: |2-
-              Building a lot more next generation AI.
+              Computer Science BSc (1st Class)
         - title: Solutions Architect
           company: IBM
           company_url: ''
@@ -73,7 +73,8 @@ sections:
           date_end: '2023-04-01'
           description: |2-
               Building next generation AI, digital twins, event driven integrations, automations and hybrid cloud infrastructure.
-
+    design:
+      columns: '2'
   - block: experience
     content:
       title: Recent Experience
