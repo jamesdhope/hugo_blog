@@ -9,7 +9,6 @@ tags:
     - architecture
     - watsonx
 date: 2024-02-20
-draft: false
 ---
 
 A common use case for conversational assistants is generating conversational responses to questions users ask of some source information. A common pattern is to retrieve relevant context through semantic search and to pass that context to the language model in the prompt, aligning the language model around a contextualised response. This approach often involves injecting the user's query into the prompt, which, without guardrails, might lead to generated output that is misaligned with policy or is undesirable in other ways. 
