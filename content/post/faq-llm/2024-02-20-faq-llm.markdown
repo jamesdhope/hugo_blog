@@ -1,5 +1,5 @@
 ---
-title:  "Surfacing source information in Q&A interactions with watsonx Assistant and model misalignment, contextualisation tradeoff."
+title:  "Surfacing source information in Q&A interactions with watsonx Assistant and the model misalignment, contextualisation tradeoff."
 categories: 
     - generativeAI
     - AI guardrails
@@ -24,4 +24,4 @@ Pattern B: The user query is used to semanically match against response embeddin
 
 Pattern C: This pattern implements RAG as discussed above with guardrails on the user query and the generated output to reduce the risk of misalignment.
 
-![Pipeline View](faq_llm.png)
+![Pipeline View](faq_llm.pdf)
