@@ -1,14 +1,12 @@
 ---
-title:  "Surfacing source information in Q&A interactions with watsonx Assistant and the model misalignment, contextualisation tradeoff."
+title:  "Approaches that mitigate against language models misalignment including when semantic search alone is just good enough"
 categories: 
     - generativeAI
     - AI guardrails
-    - AI governance
 tags: 
     - llms
     - generativeAI
     - architecture
-    - multi-modal applications
     - watsonx
 date: 2024-02-20
 draft: false
@@ -20,7 +18,7 @@ The diagram below describes three distinctly different watsonx Action sequences 
 
 Pattern A: The user query is used to semantically match against question embeddings; the question is validated by the user and the response to that question is retrieved. This pattern works well if the questions are semantically rich and the source information is already conversational such that the introduction of a language for generation might have diminishing benefits. A variation of this pattern would be to semantically search for responses.
 
-Pattern B: The user query is used to semanically match against response embeddings; a new query is constructed from entities extracted from the user's query and the newly constructed query and context is provided to the language model in the prompt. This approach guards the language model from the user's query and works well if the entities extracted allow a representative query to be constructed. 
+Pattern B: The user query is used to semantically match against response embeddings; a new query is constructed from entities extracted from the user's query and the newly constructed query and context is provided to the language model in the prompt. This approach guards the language model from the user's query and works well if the entities extracted allow a representative query to be constructed. 
 
 Pattern C: This pattern implements RAG as discussed above with guardrails on the user query and the generated output to reduce the risk of misalignment.
 
