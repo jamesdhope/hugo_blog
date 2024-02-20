@@ -16,7 +16,7 @@ draft: false
 
 A common use case for conversational assistants is generating conversational responses to a user question of some source information. A common pattern is to retrieve relevant context through semantic search and to pass that context to the language model in the prompt, aligning the language model around a contextualised response. This approach often involves injecting the user's query into the prompt, which, without guardrails, would expose the language model to queries designed to generate output that is misaligned with policy. 
 
-The patterns below show three alternative approaches to surface source information in watsonx Assistant, each achieving a different tradeoff between risk of misalignment and contextualisation of response.
+The patterns below show three alternative approaches to surface source information in watsonx Assistant with extensions, each achieving a different tradeoff between risk of misalignment and contextualisation of response.
 
 Pattern A: The user query is used to semantically match against question embeddings; the question is validated by the user and the response to that question is retrieved. This approach avoids the use of the language model and works well if the questions are semantically rich and the source information is already conversational. A variation of this would be to search for responses.
 
@@ -24,4 +24,4 @@ Pattern B: The user query is used to semanically match against response embeddin
 
 Pattern C: This pattern implements RAG as discussed above with guardrails on the user query and the generated output to reduce the risk of misalignment.
 
-![Pipeline View](faq_llm.pdf)
+![Pipeline View](faq_llm.jpg)
