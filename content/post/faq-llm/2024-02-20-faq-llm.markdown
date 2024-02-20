@@ -1,5 +1,5 @@
 ---
-title:  "Utilising existing FAQ data with watsonx Assistant"
+title:  "Surfacing source information in Q&A interactions with watsonx Assistant and model misalignment, contextualisation tradeoff."
 categories: 
     - generativeAI
     - AI guardrails
