@@ -34,7 +34,9 @@ Ne-Mo Guardrails supports five types of guardrails:
 
 #### Semantic-matching guardrails
 
-At the core of NeMo Guardrails is the Colang modeling language. Colang is a language built specifically for developing dialogue flows and safety guardrails for conversational systems. Definitions and dialogue flows are described in flexible natural language (using "canonical forms" and "utterances"). For example
+Ne-Mo Guardrails uses the Colang modeling language to describe guardrails which is specifically designed for developing dialogue flows and safety guardrails for conversational systems. Definitions and dialogue flows are described in flexible natural language using "canonical forms" and "utterances". 
+
+For example:
 
 ```
 define user ask about self-harm
