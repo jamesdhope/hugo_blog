@@ -16,7 +16,7 @@ date: 2024-02-27
 
 NeMo-Guardrails is an open-source toolkit that allows developers to add programmable guardrails to LLM-based conversational applications and can be integrated with watsonx.ai models using te WatsonxLLM LangChain Integration.
 
-#### Semantic-matching
+#### Semantic-matching guardrails
 
 At the core of NeMo Guardrails is the Colang modeling language. Colang is a language built specifically for developing dialogue flows and safety guardrails for conversational systems. Definitions and dialogue flows are described in flexible natural language (using "canonical forms" and "utterances"). For example
 
