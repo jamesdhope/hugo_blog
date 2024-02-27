@@ -105,7 +105,7 @@ models:
         TOP_P: 1
 ```
 
-For a complete code example refer to: (https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb)[https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb]
+For a complete code example refer to: https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb
 
 Further Reading:
 
