@@ -32,7 +32,7 @@ Ne-Mo Guardrails supports five types of guardrails:
 
 ![NeMo-Guardrails](nemo.png)
 
-#### Semantic-matching guardrails
+#### Semantic-matching and Dialog Rails
 
 Ne-Mo Guardrails uses the Colang modeling language to describe guardrails which is specifically designed for developing dialogue flows and safety guardrails for conversational systems. Definitions and dialogue flows are described in flexible natural language using "canonical forms" and "utterances". 
 
@@ -66,7 +66,7 @@ rails:
       - ....
 ```
 
-#### Pre-defined flows for the self moderating input/output guardrails
+#### Pre-defined flows for self moderating Input/Output Rails
 
 ```self_check_input``` and ```self_check_output``` are pre-defined flows that call to LLM on both the input to and the output from the primary interaction with the generative model. These flows are associated with prompts:
 
@@ -107,9 +107,9 @@ prompts:
       Answer:
 ```
 
-#### Extending flows with custom logic for RAG applications
+#### Programmable logic with Execution Rails for RAG applications
 
-Flows can also be extended with programmable logic to build other types of rails such as Retrieval Rails and Execution Rails for a RAG application.
+Flows can also be extended with programmable logic to build other types of rails such as excecution rails, such as for a RAG application.
 
 ```
 {config.yml}
@@ -149,7 +149,7 @@ models:
         TOP_P: 1
 ```
 
-For a complete code example refer to: https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb
+For a code example with these and other types of rails see: https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb
 
 Further Reading:
 
