@@ -66,9 +66,9 @@ rails:
       - ....
 ```
 
-#### Self moderation with pre-defined flows for the input/output guardrails
+#### Pre-defined flows for the self moderating input/output guardrails
 
-```self_check_input``` and ```self_check_output``` are pre-defined flows that call to the LLM and are associated with prompts. For example:
+```self_check_input``` and ```self_check_output``` are pre-defined flows that call to LLM on both the input to and the output from the primary interaction with the generative model. These flows are associated with prompts:
 
 ```
 {config.yml}
