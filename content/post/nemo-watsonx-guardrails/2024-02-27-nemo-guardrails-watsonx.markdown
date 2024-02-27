@@ -14,7 +14,7 @@ tags:
 date: 2024-02-27
 ---
 
-NeMo-Guardrails is an open-source toolkit that allows developers to add programmable guardrails to LLM-based conversational applications and can be integrated with watsonx.ai models using te WatsonxLLM LangChain Integration.
+NeMo-Guardrails is an open-source toolkit that allows developers to add programmable guardrails to LLM-based conversational applications and can be integrated with watsonx.ai models using LangChain's WatsonxLLM Integration.
 
 #### Five types of guardrails
 
