@@ -1,5 +1,5 @@
 ---
-title:  "Declarative semantically-matched guardrails with NVIDIA/NeMo-Guardrails and watsonx.ai"
+title:  "Programmable, semantically-matched guardrails with NVIDIA/NeMo-Guardrails and watsonx.ai"
 categories: 
     - generativeAI
     - AI guardrails
@@ -65,7 +65,7 @@ rails:
 
 #### Extending flows with custom logic for RAG applications
 
-Flows can also be extended with custom logic to build other types of rails such as Retrieval Rails and Execution Rails for a RAG application.
+Flows can also be extended with programmable logic to build other types of rails such as Retrieval Rails and Execution Rails for a RAG application.
 
 ```
 {config.yml}
@@ -85,6 +85,8 @@ async def rag(context: dict, llm: BaseLLM, kb: KnowledgeBase) -> ActionResult:
 ```
 
 #### Using the WatsonxLLM LangChain Integration to integrate with watsonx.ai
+
+Apply the config for LangChain's WatsonxLLM Integration:
 
 ```
 {config.yml}
