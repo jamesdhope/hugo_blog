@@ -79,7 +79,7 @@ define flow answer report question
 {config.py}
 async def rag(context: dict, llm: BaseLLM, kb: KnowledgeBase) -> ActionResult:
      
-    // fact and hallucination checking
+    // e.g. fact checking, hallucination checking and source attribution
 
     return ActionResult(return_value=answer, context_updates=context_updates)
 ```
