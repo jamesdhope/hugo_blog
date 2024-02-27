@@ -18,7 +18,7 @@ NeMo-Guardrails is an open-source toolkit that allows developers to add programm
 
 #### Five types of guardrails
 
-The framework supports five types of guardrails:
+Ne-Mo Guardrails supports five types of guardrails:
 
 1. Input rails: applied to the input from the user; an input rail can reject the input, stopping any additional processing, or alter the input (e.g., to mask potentially sensitive data, to rephrase).
 
