@@ -57,7 +57,7 @@ async def rag(context: dict, llm: BaseLLM, kb: KnowledgeBase) -> ActionResult:
 
 NeMo provides a declarative way to apply guardrails on the input to, or the output from, the generative model. 
 
-```
+```config.yml
 rails:  
   output:
     flows:
@@ -67,10 +67,25 @@ rails:
       - ....
 ```
 
+#### Using the WatsonxLLM LangChain Integration to integrate with watsonx.ai
 
+```config.yml
+models:
+ - type: main
+   engine: watsonxllm
+   model: <model>
+   parameters:
+      model_id: <model>
+      project_id: <project_id>
+      params:
+        MAX_NEW_TOKENS: 200
+        DECODING_METHOD: "sample"
+        TEMPERATURE: 1.5
+        TOP_K: 50
+        TOP_P: 1
+```
 
-
-
+The git code can be found here: (https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb)[https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb]
 
 
 Further Reading:
