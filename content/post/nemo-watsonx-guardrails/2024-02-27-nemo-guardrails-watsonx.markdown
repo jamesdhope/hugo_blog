@@ -132,9 +132,9 @@ async def rag(context: dict, llm: BaseLLM, kb: KnowledgeBase) -> ActionResult:
 
 Input/Output Self-Moderating Rails, Execution Rails and Dialog Rails can be used to keep the language model on-topic and are collectively refered to as Topic Rails.
 
-#### Support for RAG Applications
+#### Support for RAG Applications including Retrieval Rails.
 
-Ne-Mo Guardrails supports two approaches for guardrailing RAG applications including "Relevant Chunks" which are passed directly to the generate method and configuring a knowledge base as part of the guardrails configuration.
+Ne-Mo Guardrails supports two approaches for guardrailing RAG applications including "Relevant Chunks" which are passed directly to the generate method or configuring a knowledge base as part of the guardrails configuration. This second approach is a Retrieval Rail.
 
 For example, using the "Relevant Chunks": 
 
@@ -158,7 +158,7 @@ response = rails.generate(messages=[{
 print(response["content"])
 ```
 
-or using the "Knowledge Base" approach:
+or using a Retrieval Rail:
 
 ```
 {rules.co}
@@ -172,6 +172,8 @@ define user ask about report
 {report.md}
 <multi-line knowledge base here>
 ```
+
+
 
 #### Using the WatsonxLLM LangChain Integration to integrate with watsonx.ai
 
