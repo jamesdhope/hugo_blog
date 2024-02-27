@@ -66,6 +66,8 @@ rails:
       - ....
 ```
 
+#### Self moderation with pre-defined flows for the input/output guardrails
+
 ```self_check_input``` and ```self_check_output``` are pre-defined flows that call to the LLM and are associated with prompts. For example:
 
 ```
