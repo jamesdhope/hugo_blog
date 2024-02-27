@@ -38,14 +38,16 @@ In this Colang script, three blocks are defined: the user message blocks ```defi
 
 Flows can also be extended with custom logic, for example, in a RAG application, that calls to a rag() function to perform fact checking or hallucination checking with additional calls to a language model:
 
-```config.yml
+```
+{config.yml}
 define flow answer report question
   user ...
   $answer = execute rag()
   bot $answer
 ```
 
-```config.py
+```
+{config.py}
 async def rag(context: dict, llm: BaseLLM, kb: KnowledgeBase) -> ActionResult:
      
     // fact and hallucination checking
@@ -57,7 +59,8 @@ async def rag(context: dict, llm: BaseLLM, kb: KnowledgeBase) -> ActionResult:
 
 NeMo provides a declarative way to apply guardrails on the input to, or the output from, the generative model. 
 
-```config.yml
+```
+{config.yml}
 rails:  
   output:
     flows:
@@ -69,7 +72,8 @@ rails:
 
 #### Using the WatsonxLLM LangChain Integration to integrate with watsonx.ai
 
-```config.yml
+```
+{config.yml}
 models:
  - type: main
    engine: watsonxllm
@@ -85,8 +89,7 @@ models:
         TOP_P: 1
 ```
 
-The git code can be found here: (https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb)[https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb]
-
+For a complete code example refer to: (https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb)[https://github.com/jamesdhope/nemo-guardrails-watsonx/blob/master/notebook.ipynb]
 
 Further Reading:
 
