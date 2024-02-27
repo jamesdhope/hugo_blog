@@ -109,7 +109,7 @@ prompts:
 
 #### Execution Rails
 
-Execution rails can also be built with programmable logic for guardrailing RAG applications. For example:
+Execution rails are semantically matched rails extended with the actions library and custom logic, for example:
 
 ```
 {config.yml}
@@ -126,6 +126,51 @@ async def rag(context: dict, llm: BaseLLM, kb: KnowledgeBase) -> ActionResult:
     // e.g. fact checking, hallucination checking and source attribution
 
     return ActionResult(return_value=answer, context_updates=context_updates)
+```
+
+#### Topic Rails
+
+Input/Output Self-Moderating Rails, Execution Rails and Dialog Rails can be used to keep the language model on-topic and are collectively refered to as Topic Rails.
+
+#### Rails for RAG Applications
+
+Ne-Mo Guardrails supports two approaches for guardrailing RAG applications including "Relevant Chunks" which are passed directly to the generate method and configuring a knowledge base as part of the guardrails configuration.
+
+For example, using the "Relevant Chunks": 
+
+```
+{application.py}
+response = rails.generate(messages=[{
+    "role": "context",
+    "content": {
+        "relevant_chunks": """
+            Employees are eligible for the following time off:
+              * Vacation: 20 days per year, accrued monthly.
+              * Sick leave: 15 days per year, accrued monthly.
+              * Personal days: 5 days per year, accrued monthly.
+              * Paid holidays: New Year's Day, Memorial Day, Independence Day, Thanksgiving Day, Christmas Day.
+              * Bereavement leave: 3 days paid leave for immediate family members, 1 day for non-immediate family members. """
+    }
+},{
+    "role": "user",
+    "content": "How many vacation days do I have per year?"
+}])
+print(response["content"])
+```
+
+or using the "Knowledge Base" approach:
+
+```
+{rules.co}
+define user ask about report
+  "What was last month's unemployment rate?"
+  "Which industry added the most jobs?"
+  "How many jobs were added in the transportation industry?"
+```
+
+```
+{report.md}
+<multi-line knowledge base here>
 ```
 
 #### Using the WatsonxLLM LangChain Integration to integrate with watsonx.ai
