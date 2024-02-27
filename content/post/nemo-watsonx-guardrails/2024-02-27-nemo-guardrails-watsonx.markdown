@@ -111,5 +111,5 @@ For a complete code example refer to: https://github.com/jamesdhope/nemo-guardra
 
 Further Reading:
 
-[1] LangChain Integrations: https://python.langchain.com/docs/integrations/llms/
-[2] NeMo Guardrails Github: https://github.com/NVIDIA/NeMo-Guardrails
+1. LangChain Integrations: https://python.langchain.com/docs/integrations/llms/
+2. NeMo Guardrails Github: https://github.com/NVIDIA/NeMo-Guardrails
