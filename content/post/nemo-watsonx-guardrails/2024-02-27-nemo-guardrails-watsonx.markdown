@@ -32,7 +32,7 @@ Ne-Mo Guardrails supports five types of guardrails:
 
 ![NeMo-Guardrails](nemo.png)
 
-#### Dialog Rails
+#### Semantic Matching & Dialog Rails
 
 Ne-Mo Guardrails uses the Colang modeling language to describe guardrails which is specifically designed for developing dialogue flows and safety guardrails for conversational systems. Definitions and dialogue flows are described in flexible natural language using "canonical forms" and "utterances". 
 
@@ -66,7 +66,7 @@ rails:
       - ....
 ```
 
-#### Input/Output Rails
+#### Pre-defined self-moderating Input/Output Rails
 
 ```self_check_input``` and ```self_check_output``` are pre-defined flows that call to LLM on both the input to and the output from the primary interaction with the generative model. These flows are associated with prompts:
 
@@ -107,9 +107,9 @@ prompts:
       Answer:
 ```
 
-#### Execution Rails
+#### Execution Rails for extending logic with Actions
 
-Execution rails are semantically matched rails extended with the actions library and custom logic, for example:
+Execution rails are semantically matched rails extended with the Actions library and custom logic, for example:
 
 ```
 {config.yml}
@@ -132,7 +132,7 @@ async def rag(context: dict, llm: BaseLLM, kb: KnowledgeBase) -> ActionResult:
 
 Input/Output Self-Moderating Rails, Execution Rails and Dialog Rails can be used to keep the language model on-topic and are collectively refered to as Topic Rails.
 
-#### Rails for RAG Applications
+#### Support for RAG Applications
 
 Ne-Mo Guardrails supports two approaches for guardrailing RAG applications including "Relevant Chunks" which are passed directly to the generate method and configuring a knowledge base as part of the guardrails configuration.
 
