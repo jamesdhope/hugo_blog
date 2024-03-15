@@ -46,8 +46,8 @@ sections:
           company_url: ''
           company_logo: uol
           location: United Kingdom
-          date_start: '2011-01-01'
-          date_end: '2021-12-01'
+          date_start: '2021-01-01'
+          date_end: '2023-01-01'
           description: Teaching Machine Learning
         - title: Software Engineer
           company: Various inc. Barclays, HSBC, BP, Cancer Research, Wellcome Trust
