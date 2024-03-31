@@ -105,6 +105,15 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - certificate_url: https://coursera.org/share/a64c9b9caff9d8b7db3f0847ee1e6670
+          date_end: ''
+          date_start: '2024-03-01'
+          description: ''
+          icon: ibm
+          organization: IBM
+          organization_url: https://www.coursera.org
+          title: IBM Certified AI Engineer
+          url: ''
         - certificate_url: https://google.accredible.com/1955e0c9-5991-4308-b915-42274832908a
           date_end: ''
           date_start: '2023-07-29'
