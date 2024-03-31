@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Senior Solutions Architect @ IBM Client Engineering | AI Engineer | GCP Professional Machine Learning Engineer
+role: Senior Solutions Architect @ IBM Client Engineering | IBM Certified AI Engineer | GCP Professional Cloud Architect & Machine Learning Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,7 +25,7 @@ organizations:
     url: https://www.ibm.com/client-engineering
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include Agentic AI systems and AI at the edge.
+bio: My research interests include Deep Learning, Agentic AI systems and AI at the edge.
 
 # Interests to show in About widget
 #interests:
@@ -120,5 +120,5 @@ social:
 highlight_name: true
 ---
 
-I'm an experienced technical solutions architect in the IBM Technology, Client Engineering Team. I lead multidisciplinary engineering teams in the design and build of next generation data & AI, automation, integration and hybrid cloud technologies. I graduated with First Class honours in Computer Science and hold a Masters degree from Cambridge University. I am an IBM Certified Architect, GCP Professional Cloud Architect, GCP Professional Machine Learning Engineer and certified in Data Science and Machine Learning (HarvardX). I have been a member of the University of London Data Science MSc academic tutor team teaching AI and Machine Learning. I am a member of The Open Group Ecosystems Architecture Working Group focused on developing architectural professional practice for AI. I post here about architectural patterns for AI systems and projects I am allowed to talk about. Connect with me on linkedin [Linkedin](https://www.linkedin.com/in/jamesdometthope/)
+I'm an experienced technical architect and engineer in the IBM Technology, Client Engineering Team. I lead multidisciplinary engineering teams in the design and build of next generation data & AI, automation, integration and hybrid cloud technologies. I graduated with First Class honours in Computer Science and hold a Masters degree from Cambridge University. I am an IBM Certified Architect, IBM Certified AI Engineer, GCP Professional Cloud Architect, GCP Professional Machine Learning Engineer and I am certified in Data Science and Machine Learning (HarvardX). I have been a member of the University of London Data Science MSc academic tutor team teaching AI and Machine Learning. I am a member of The Open Group Ecosystems Architecture Working Group focused on developing architectural professional practice for AI. I post here mostly about architectural patterns and engineering for AI systems projects I am allowed to talk about. Connect with me on linkedin [Linkedin](https://www.linkedin.com/in/jamesdometthope/)
 {style="text-align: justify;"}
