@@ -15,9 +15,9 @@ tags:
 date: 2024-06-19
 ---
 
-Agentic systems consisting of multiple heterogenous agents with language models (including API calls to external agents) must be monitored for data and model (or concept) drift to ensure trustworthiness. Agentic systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) are particularly susceptible to data drift caused by out-of-distribution (OOD) inputs. The adaptive and dynamic property of agentic systems and the external environment (machine and user) requires an equally dynamic approach to detecting drift, re-tuning, evaluating and deploying models (MLOps or LLMOps) to ensure the agents and the agentic system as a whole can be trusted.
+Agentic systems that consist of heterogenous language models agents must be monitored for data and model (or concept) drift to ensure trustworthiness. Agentic systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) are particularly susceptible to data drift caused by out-of-distribution (OOD) inputs. The adaptive and dynamic property of agentic systems and the external environment (machine and user) requires an equally dynamic approach to detecting drift, re-tuning, evaluating and deploying models (MLOps or LLMOps) to ensure the agents and the agentic system as a whole can be trusted.
 
-The following diagram provides an approach to automate LLMOps on the IBM watsonx platform:
+The following diagram provides an approach to automate this MLOps process on the IBM watsonx platform:
 
 ![LLMOps with watson](LLMOps.png)
 
