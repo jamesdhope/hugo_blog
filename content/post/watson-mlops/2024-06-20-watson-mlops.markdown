@@ -1,5 +1,5 @@
 ---
-title:  "Automating MLOps with IBM watsonx for Maintaining Trustworthy AI Agents and Agentic Systems"
+title:  "Automating MLOps with watsonx for Maintaining Trustworthy Agentic Systems"
 categories: 
     - LLMOps
     - MLOps
@@ -15,9 +15,9 @@ tags:
 date: 2024-06-19
 ---
 
-Language models used in generative applications must be monitored for data and model (or concept) drift to detect out-of-distribution (OOD) inputs and to ensure trustworthiness. This includes agentic systems that consist of heterogenous language model based agents, especially systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem), as these systems are particularly susceptible to data drift due to their narrow training distribution. The adaptive and dynamic property of agentic systems and the external environment (machine and user) requires an equally dynamic approach to detecting drift, re-tuning, evaluating and deploying models (MLOps or LLMOps) to ensure the agents and the agentic system as a whole can be trusted.
+Language models used in generative applications must be monitored for data and model (or concept) drift to ensure trustworthiness. This is epecially important in agentic systems that consist of heterogenous language model based agents to ensure stability of the system, as well as in systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) as these models are comparatively more susceptible to data drift than larger, general purpose models due to their relatively narrow training distribution. 
 
-The following diagram provides an approach to automate this MLOps process on the IBM watsonx platform:
+The adaptive and dynamic property of agentic systems and the external environment (machine and user) requires an equally dynamic approach to detecting drift, re-tuning, evaluating and deploying models (MLOps or LLMOps) to ensure the agents and the agentic system as a whole can be trusted. The following diagram provides an approach to automate this MLOps process on the IBM watsonx platform:
 
 ![LLMOps with watson](LLMOps.png)
 
