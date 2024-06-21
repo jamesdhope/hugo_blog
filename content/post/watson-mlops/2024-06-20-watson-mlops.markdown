@@ -1,5 +1,5 @@
 ---
-title:  "SLMOps for Ensuring Trustworthy Agents in a Heterogeneous Multi-Agent System"
+title:  "Automating MLOps with IBM watsonx for Maintaining Trustworthy AI Agents and Agentic Systems"
 categories: 
     - LLMOps
     - MLOps
@@ -15,7 +15,7 @@ tags:
 date: 2024-06-19
 ---
 
-Agentic systems consisting of multiple heterogenous agents with language models that interact with one another must be monitored for data and model (or concept) drift to ensure that the system is trustworthy. Agentic systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) are particularly vulnerable to data drift caused by out-of-distribution (OOD) inputs. The adaptive and dynamic property of agentic systems and their environment requires an equally dynamic approach to detecting drift, re-tuning, evaluating and deploying models (MLOps or LLMOps) to ensure the agents and the agentic system as a whole can be trusted.
+Agentic systems consisting of multiple heterogenous agents with language models (including API calls to external agents) must be monitored for data and model (or concept) drift to ensure trustworthiness. Agentic systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) are more liable to suffer from data drift caused by out-of-distribution (OOD) inputs. The adaptive and dynamic property of agentic systems and the external environment (machine and user) requires an equally dynamic approach to detecting drift, re-tuning, evaluating and deploying models (MLOps or LLMOps) to ensure the agents and the agentic system as a whole can be trusted.
 
 The following diagram provides an approach to automate LLMOps on the IBM watsonx platform:
 
@@ -45,3 +45,6 @@ DevOps Toolchain (Continuous Integration / Continuous Delivery): The DevOps tool
 
 4. Progressive Rollout: Based on the experiment results, the winning model or pipeline configuration is selected for production deployment. Iter8, in conjunction with the Istio Service Mesh (Red Hat OpenShift Service Mesh), gradually increases the traffic to the new model configuration while monitoring its performance to ensure stability and effectiveness. Once the new model configuration has proven its reliability through the progressive rollout, it receives 100% of the traffic, completing the deployment.
 
+Further reading:
+
+* Iter8 Custom Metrics: https://iter8.tools/0.10/metrics/custom-metrics/
