@@ -1,5 +1,5 @@
 ---
-title:  "Automating MLOps with watsonx for Maintaining Trustworthy Agentic Systems"
+title:  "Automating MLOps with watsonx for Maintaining Trustworthy Drift-Susceptible Agentic Systems"
 categories: 
     - LLMOps
     - MLOps
