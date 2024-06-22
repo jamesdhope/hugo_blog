@@ -15,9 +15,9 @@ tags:
 date: 2024-06-19
 ---
 
-Language models used in generative applications must be monitored for data and model (or concept) drift to ensure trustworthiness. This is epecially important in agentic systems that consist of heterogenous language model based agents to ensure stability of the system, as well as in systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) as these models are comparatively more susceptible to data drift than larger, general purpose models due to their relatively narrow training distribution. 
+Whilst approaches such as Monti Carlo Tree Search and Q* look promising for aligning large language models to specialised tasks, MLOps (or LLMOps) is essential for maintaining models and applications that are susceptible to drift. This remains a relevant concern in an ecosystems context where agentic systems and the environments they are deployed into are continously evolving, as well as in systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) as these models are comparatively more susceptible to data drift than larger, general purpose models due to their relatively narrow training distribution. This situation is more likely in hardware constrained environments. Additionally, MLOps is essential for rapid prototyping and rapid model release cycles.
 
-The adaptive and dynamic property of agentic systems and the external environment (machine and user) requires an equally dynamic approach to detecting drift, re-tuning, evaluating and deploying models (MLOps or LLMOps) to ensure the agents and the agentic system as a whole can be trusted. The following diagram provides an approach to automate this MLOps process on the IBM watsonx platform:
+The following diagram provides an approach to automate drift detection, model tuning, evaluation and deployment on the IBM watsonx platform. This approach can be extended across development environments to support many different model tuning and deployment strategies including adapter (LoRA) based models:
 
 ![LLMOps with watson](LLMOps.png)
 
@@ -48,3 +48,4 @@ DevOps Toolchain (Continuous Integration / Continuous Delivery): The DevOps tool
 Further reading:
 
 * Iter8 Custom Metrics: https://iter8.tools/0.10/metrics/custom-metrics/
+* Wang et al, June 2024, Q* Improving Multi-Step reasoning for LLMs with Deliberate Planning: https://arxiv.org/pdf/2406.14283v1
