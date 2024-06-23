@@ -1,5 +1,5 @@
 ---
-title:  "Maintaining Trustworthiness in Drift-Susceptible Agentic Systems and Cascading Agentic Architectures with Automated MLOps"
+title:  "Maintaining Trustworthiness in Drift-Susceptible Agentic Systems and Cascading heterogeneous Agentic Architectures with Automated MLOps"
 categories: 
     - LLMOps
     - MLOps
@@ -15,7 +15,7 @@ tags:
 date: 2024-06-19
 ---
 
-Whilst Monti Carlo Tree Search and Q* are promising approaches for aligning and guiding general purpose language models in a specialised domain, MLOps (or LLMOps) remains essential for maintaining models that are susceptible to drift. This is a particular concern in ecosystems where agents with smaller, specialised models and the environments they are deployed into are continously evolving, as these models are comparatively more susceptible to data drift than larger, general purpose models due to their relatively narrow training distribution. Additionally, in cascading agentic architectures out-of-distribution (OOD) inputs/outputs have the potential to propagate and proliferate from agent to agent. 
+Whilst Monti Carlo Tree Search and Q* are promising approaches for aligning and guiding general purpose language models in a specialised domain, MLOps (or LLMOps) remains essential for maintaining models that are susceptible to drift. This is a particular concern in ecosystems where agents with smaller, specialised models and the environments they are deployed into are continously evolving, as these models are comparatively more susceptible to data drift than larger, general purpose models due to their relatively narrow training distribution. Additionally, in cascading heterogeneous agentic architectures out-of-distribution (OOD) inputs/outputs have the potential to propagate and proliferate from agent to agent. 
 
 The following diagram provides an approach to automate drift detection, model tuning, evaluation and deployment on the IBM watsonx platform. This approach can be extended across development environments to support many different model tuning and deployment strategies including adapter (LoRA) based models:
 
