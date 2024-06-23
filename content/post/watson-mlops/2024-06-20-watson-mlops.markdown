@@ -1,5 +1,5 @@
 ---
-title:  "Maintaining Trustworthiness Drift-Susceptible Agentic Systems with Automated MLOps"
+title:  "Maintaining Trustworthiness in Drift-Susceptible Agentic Systems and Cascading Agentic Architectures with Automated MLOps"
 categories: 
     - LLMOps
     - MLOps
