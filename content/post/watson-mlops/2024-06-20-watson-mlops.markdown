@@ -1,5 +1,5 @@
 ---
-title:  "Automating MLOps with watsonx for Rapid Product Development & Maintaining Trustworthiness of Drift-Susceptible Agentic Systems"
+title:  "Maintaining Trustworthiness Drift-Susceptible Agentic Systems with Automated MLOps"
 categories: 
     - LLMOps
     - MLOps
@@ -15,7 +15,7 @@ tags:
 date: 2024-06-19
 ---
 
-Whilst approaches such as Monti Carlo Tree Search and Q* look promising for aligning large language models to specialised tasks, MLOps (or LLMOps) is essential for maintaining models and applications that are susceptible to drift. This remains a relevant concern in an ecosystems context where agentic systems and the environments they are deployed into are continously evolving, as well as in systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) as these models are comparatively more susceptible to data drift than larger, general purpose models due to their relatively narrow training distribution. This situation is more likely in hardware constrained environments. Additionally, MLOps is essential for rapid prototyping and rapid model release cycles.
+Whilst approaches such as Monti Carlo Tree Search and Q* look promising for aligning large language models to specialised tasks, MLOps (or LLMOps) is essential for maintaining models and applications that are susceptible to drift. This remains a relevant concern in an ecosystems context where agentic systems and the environments they are deployed into are continously evolving, as well as in systems that expose smaller, specialised language models to inputs from the environment (or an ecosystem) as these models are comparatively more susceptible to data drift than larger, general purpose models due to their relatively narrow training distribution. This is more likely in hardware constrained environments that utilise smaller models and in cascading agentic architectures where out-of-distribution (OOD) inputs can propagate and proliferate from agent to agent. 
 
 The following diagram provides an approach to automate drift detection, model tuning, evaluation and deployment on the IBM watsonx platform. This approach can be extended across development environments to support many different model tuning and deployment strategies including adapter (LoRA) based models:
 
