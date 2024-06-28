@@ -5,7 +5,7 @@ categories:
     - architecture
 tags: 
     - jepa
-date: 2023-06-26
+date: 2024-06-26
 ---
 
 JEPA (Joint Embeddings Predictive Architecture) has potential for aligning language-model based agents in an agent-based ecosystem. Whilst JEPA is primarily applied to image and video understanding tasks, it can be adapted for language tasks.
