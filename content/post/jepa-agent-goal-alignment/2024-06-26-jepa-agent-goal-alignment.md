@@ -18,7 +18,7 @@ The JEPA model is trained to establish connections between sentences1 and senten
 
 ### Mapping Predictor Weights
 
-After training, the weights of the predictor (comprising linear layers like fc1, fc2, and predictor) are mapped back into the original sentence space. This mapping allows for the interpretation of how these learned weights influence the embeddings of sentences1 and sentences2. By examining these mapped weights, one can understand which aspects or dimensions of the original sentences contribute most significantly to the predictor's decision-making process. This step is crucial for interpreting and visualizing the semantic relationships identified by the JEPA model in a meaningful way.
+After training, the weights of the predictor are mapped back into the original sentence space. This mapping allows for the interpretation of how these learned weights influence the embeddings of sentences1 and sentences2. By examining these mapped weights, one can understand which aspects or dimensions of the original sentences contribute most significantly to the predictor's decision-making process. This step is crucial for interpreting and visualizing the semantic relationships identified by the JEPA model in a meaningful way.
 
 ![features](result.png)
 
