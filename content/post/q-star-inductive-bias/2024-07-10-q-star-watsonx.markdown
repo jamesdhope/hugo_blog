@@ -36,4 +36,4 @@ Within the constraints set, ten states were visited with thirty actions consider
 8. Create a makeshift tool, such as a spear or knife, using available materials like rocks, sticks, and bones. This can be used for hunting, self-defense, and other tasks that may be necessary for survival.
 9. Navigate using the sun and stars to determine the direction you need to head in to find civilization or a potential rescue route.
 
-
+Q* offers potential to enhance the inductive bias of a language model for tasks that demand reasoning, and the efficacy of Q* for reasoning should be established with a suitable evaluation framework.
