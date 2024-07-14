@@ -2,13 +2,14 @@
 title:  "Enhancing the Inductive Bias of Language Models with Q*"
 categories: 
     - generativeAI
-    - AI
+    - AgenticAI
 tags: 
     - llms
     - generativeAI
     - architecture
-    - multi-modal applications
+    - reasoning
     - watsonx
+    - inductive bias
 date: 2024-07-10
 ---
 
