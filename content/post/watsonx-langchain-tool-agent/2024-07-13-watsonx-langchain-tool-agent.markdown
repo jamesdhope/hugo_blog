@@ -1,5 +1,5 @@
 ---
-title:  "Building Tool-Agents with watsonx.ai Chat Competitions API and watsonx LangChain BaseChatModel"
+title:  "Building Tool-Agents the watsonx LangChain BaseChatModel"
 categories: 
     - agenticAI
     - AI
@@ -11,7 +11,7 @@ tags:
 date: 2024-07-13
 ---
 
-The watsonx.ai Chat Completitions API now provides support for building Tool-Agents using the watsonx BaseChatModel. 
+The watsonx.ai BaseChatModel supports integration with LangChain for building LangChain Tool-Agents. 
 
 The following code demonstrates a watsonx language model deciding which tools to invoke; the invocation of the selected tools; and then a final call to the watsonx language model with the response from the tools. Tools may be any call out to an external API or service such as a database or embeddings store, and LangChain provides additional support for this.
 
