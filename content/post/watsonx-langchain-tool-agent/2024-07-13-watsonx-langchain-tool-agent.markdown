@@ -8,7 +8,7 @@ tags:
     - generativeAI
     - architecture
     - watsonx
-date: 2024-04-07
+date: 2024-07-13
 ---
 
 The watsonx.ai Chat Completitions API now provides support for building Tool-Agents using the watsonx BaseChatModel. 
