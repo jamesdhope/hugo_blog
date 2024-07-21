@@ -32,6 +32,15 @@ sections:
           date_end: ''
           description: |2-
               Building a lot more next generation AI.
+        - title: BSI ART/1 Artificial Intelligence Committee Member
+          company: BSI
+          company_url: ''
+          company_logo: bsi
+          location: United Kingdom
+          date_start: '2024-07-15'
+          date_end: ''
+          description: |2-
+              Contributing to development of AI standards as a National Expert.
         - title: Solutions Architect
           company: IBM
           company_url: ''
