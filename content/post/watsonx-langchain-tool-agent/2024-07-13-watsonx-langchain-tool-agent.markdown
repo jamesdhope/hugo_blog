@@ -11,9 +11,9 @@ tags:
 date: 2024-07-13
 ---
 
-The watsonx.ai BaseChatModel supports integration with LangChain for building LangChain Tool-Agents. 
+The watsonx.ai BaseChatModel supports integration with LangChain for building LangChain Tool-Agents. The following code demonstrates use of the LangChain watsonx BaseChatModel to construct a Tool-Agent. The application logic follows: (1) a call to the language model to determine which tools to invoke; (2) the programmatic invocation of the selected tools (3) a final call to the watsonx language model with the response from the tools. 
 
-The following code demonstrates a watsonx language model deciding which tools to invoke; the invocation of the selected tools; and then a final call to the watsonx language model with the response from the tools. Tools may be any call out to an external API or service such as a database or embeddings store, and LangChain provides additional support for this.
+Tools may be any call out to an external API or service such as a database or embeddings store, and LangChain provides additional support for this.
 
 ```
 import os
