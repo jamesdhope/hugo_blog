@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Architect | AI / ML Engineer | BSI ART1 Committee Member / Expert on AI | Follow me for updates on building trustworthy AI
+role: Architect | AI / ML Engineer | BSI ART1 Artificial Intelligence Committee Member | Follow me for updates on building trustworthy AI
 
 # Organizations/Affiliations to show in About widget
 organizations:
