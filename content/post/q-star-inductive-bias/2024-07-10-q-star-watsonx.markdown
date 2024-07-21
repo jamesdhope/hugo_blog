@@ -1,5 +1,5 @@
 ---
-title:  "Enhancing the Inductive Bias of Language Models with Q*"
+title:  "Improving Language Models Inductive Bias with Q*"
 categories: 
     - generativeAI
     - AgenticAI
