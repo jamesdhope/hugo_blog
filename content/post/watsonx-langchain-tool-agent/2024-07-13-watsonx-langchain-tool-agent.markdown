@@ -1,5 +1,5 @@
 ---
-title:  "Building Tool-Agents the watsonx LangChain BaseChatModel"
+title:  "Tool-Agents with the watsonx LangChain BaseChatModel"
 categories: 
     - agenticAI
     - AI
