@@ -38,10 +38,7 @@ The true power of this approach lies in its ability to reveal the "thoughts" or 
 
 For example, a cluster might bring together sentences about "AI" and "machine learning," revealing a broader theme of technological innovation. Another cluster might group sentences about "renewable energy" and "sustainability," highlighting concerns about environmental impact. Through this process, hierarchical clustering with dendrograms offers a unique lens for interpreting higher-order semantics in text data.
 
-![Dendrogram with Keywords](dendrograms_with_keywords.png)
+![Dendrogram with Keywords](dendrogram_with_keywords.png)
 
 Hierarchical clustering, especially when combined with the Ward method and embeddings, is a powerful tool for uncovering the hidden structure in text data. By revealing the higher-order semantics and the underlying "thoughts" behind clusters, this approach provides deep insights into the relationships between different ideas and concepts. As we continue to explore and analyze vast amounts of text data, dendrograms will play an essential role in helping us make sense of complex information, guiding us toward a more nuanced understanding of the ideas that shape our world.
-
-
-
 
