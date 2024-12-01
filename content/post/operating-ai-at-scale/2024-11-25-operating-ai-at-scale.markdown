@@ -24,7 +24,7 @@ date: 2024-11-25
 
 Operating AI at scale across different clouds and execution engines becomes complex and difficult to maintain at scale with cloud native tools as the number of different systems and integrations between systems proliferate in number. OpenShiftAI provides a cohesive hybrid, multi-cloud platform that enables enterprises to separate concerns between pipeline orchestration and workload execution reducing the complexity of building with cloud native tooling and accelerating AI adoption across the enterprise.
 
-![AIOps Functional View](AIOps_1.png)
+![AIOps as a Distributed System](AIOps_1.png)
 
 OpenShiftAI combined with watsonx.data and watsonx.governance enables enterprise AI at scale in the following ways:
 
@@ -34,11 +34,11 @@ OpenShiftAI combined with watsonx.data and watsonx.governance enables enterprise
 
 - pipelines for super fine tuning an open language model (we show LoRA PEFT fine tuning with IBM hashtag#Granite but this is easily extensible to full SFT or model distillation), because small open models are the future for enterprise AI
 
-- distributing training and observability of GPU workloads with hashtag#Ray, because distributed compute is important if not essential at scale. 
+- distributing training and observability of GPU workloads with Ray, because distributed compute is important if not essential for operating AI at scale
 
-- #watsonx.data as a cloud agnostic feature store, because data is disparate and AI builders need that data to derive value for the enterprise 
+- watsonx.data as a cloud agnostic feature store, because data is disparate and AI builders need that data to derive value for the enterprise 
 
-- publication of model factsheets in hashtag#watsonx.governance and tracking models as part of an AI Use Case, because enterprise AI needs to be governed. 
+- publication of model factsheets in watsonx.governance and tracking models as part of an AI Use Case, because enterprise AI needs to be governed. 
 
 ![OpenShiftAI integration with watsonx.governance](AIOps_2.png)
 
