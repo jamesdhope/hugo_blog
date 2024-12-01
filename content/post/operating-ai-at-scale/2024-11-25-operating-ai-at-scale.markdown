@@ -1,0 +1,38 @@
+---
+title:  "Operating AI at Scale"
+categories: 
+    - kubernetes
+    - architecture
+    - openshiftAI
+tags: 
+    - OpenVino
+    - KServe
+    - KNative
+    - Kubeflow
+    - vLLM
+    - pipelines
+    - fine tuning
+    - lora
+    - watsonx
+    - kubernetes
+    - architecture
+date: 2024-11-25
+---
+
+Operating AI at scale across different clouds and execution engines becomes complex and difficult to maintain at scale with cloud native tools as the number of different systems and integrations between systems proliferate in number. OpenShiftAI provides a cohesive hybrid, multi-cloud platform that enables enterprises to separate concerns between pipeline orchestration and workload execution reducing the complexity of building with cloud native tooling and accelerating AI adoption across the enterprise.
+
+OpenShiftAI combined with watsonx.data and watsonx.governance enables enterprise AI at scale in the following ways:
+
+- separation of concerns between pipeline orchestration and training/serving workload execution, demonstrating workload placement to where it makes sense, for reasons such as data compliance or service level agreements for downstream AI 
+
+- versioning and orchestration of pipelines as a hybrid multicloud platform-first approach, removing the need for and complexity that results from cloud native integrations that proliferate in number when operating AI at scale, and unlocking the potential to operate AI across the enterprise
+
+- pipelines for super fine tuning an open language model (we show LoRA PEFT fine tuning with IBM hashtag#Granite but this is easily extensible to full SFT or model distillation), because small open models are the future for enterprise AI
+
+- distributing training and observability of GPU workloads with hashtag#Ray, because distributed compute is important if not essential at scale. 
+
+- #watsonx.data as a cloud agnostic feature store, because data is disparate and AI builders need that data to derive value for the enterprise 
+
+- publication of model factsheets in hashtag#watsonx.governance and tracking models as part of an AI Use Case, because enterprise AI needs to be governed. 
+
+For a more in-depth review of OpenShiftAI and Kubeflow pipelines see: https://blog.pierswalter.co.uk/posts/openshift-ai-pipeline/
