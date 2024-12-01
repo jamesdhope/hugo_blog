@@ -1,5 +1,5 @@
 ---
-title:  "Operating AI at Scale"
+title:  "Operating AI at Scale with OpenShiftAI, KubeFlow Pipelines and watsonx"
 categories: 
     - kubernetes
     - architecture
