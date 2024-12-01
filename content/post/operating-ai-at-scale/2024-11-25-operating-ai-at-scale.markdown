@@ -24,7 +24,11 @@ date: 2024-11-25
 
 Operating AI at scale across different clouds and execution engines becomes complex and difficult to maintain at scale with cloud native tools as the number of different systems and integrations between systems proliferate in number. OpenShiftAI provides a cohesive hybrid, multi-cloud AI platform that enables enterprises to separate concerns between pipeline orchestration and workload execution reducing the complexity of building with cloud native tooling and accelerating AI operations across the enterprise.
 
-![AIOps as a Distributed System](AIOps_1.png)
+### Building Blocks of Operating AI
+
+![Functional View of AI Operations](AIOps_1.png)
+
+### OpenShiftAI, watsonx.data & watsonx.governance enabling AI at Scale
 
 OpenShiftAI combined with watsonx.data and watsonx.governance enables enterprise AI at scale in the following ways:
 
@@ -39,6 +43,8 @@ OpenShiftAI combined with watsonx.data and watsonx.governance enables enterprise
 - watsonx.data as a cloud agnostic feature store, because data is disparate and AI builders need that data to derive value for the enterprise 
 
 - publication of model factsheets in watsonx.governance and tracking models as part of an AI Use Case, because enterprise AI needs to be governed. 
+
+### Integrating watsonx.governance with OpenShiftAI KubeFlow Pipelines
 
 ![OpenShiftAI integration with watsonx.governance](AIOps_2.png)
 
