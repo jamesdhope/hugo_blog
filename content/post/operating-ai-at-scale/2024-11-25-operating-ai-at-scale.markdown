@@ -1,9 +1,12 @@
 ---
 title:  "Operating AI at Scale with OpenShiftAI, KubeFlow Pipelines and watsonx"
 categories: 
-    - kubernetes
-    - architecture
-    - openshiftAI
+    - OpenshiftAI
+    - kubeflow
+    - watsonx
+    - LLMOps
+    - MLOps
+    - AIOps
 tags: 
     - OpenVino
     - KServe
