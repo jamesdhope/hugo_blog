@@ -22,7 +22,7 @@ tags:
 date: 2024-11-25
 ---
 
-Operating AI at scale across different clouds and execution engines becomes complex and difficult to maintain at scale with cloud native tools as the number of different systems and integrations between systems proliferate in number. OpenShiftAI provides a cohesive hybrid, multi-cloud platform that enables enterprises to separate concerns between pipeline orchestration and workload execution reducing the complexity of building with cloud native tooling and accelerating AI adoption across the enterprise.
+Operating AI at scale across different clouds and execution engines becomes complex and difficult to maintain at scale with cloud native tools as the number of different systems and integrations between systems proliferate in number. OpenShiftAI provides a cohesive hybrid, multi-cloud AI platform that enables enterprises to separate concerns between pipeline orchestration and workload execution reducing the complexity of building with cloud native tooling and accelerating AI operations across the enterprise.
 
 ![AIOps as a Distributed System](AIOps_1.png)
 
