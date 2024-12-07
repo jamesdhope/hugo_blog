@@ -29,7 +29,7 @@ We deployed the IBM Spectrum Discover Application to OpenShift for a highly scal
 
 ### IBM Spectrum Discover Query Builder 
 
-![IBM Fusion](fusion.png)
+![](fusion.png)
 
 ### Example IBM Spectrum Discover Application
 
