@@ -1,5 +1,5 @@
 ---
-title:  "Higher-Order Semantics with Dendrograms & Hierarchical Clustering"
+title:  "Higher-Order Semantics with Dendrograms and Hierarchical Clustering"
 categories: 
     - knowledge graph
     - semantics
